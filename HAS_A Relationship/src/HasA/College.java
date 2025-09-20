@@ -5,6 +5,7 @@ public class College {
 	private int clgId;
 	private String clgName;
 	private Department dpt ;
+	private int noDpt;
 	
 	
 	public int getClgId() {
@@ -24,6 +25,12 @@ public class College {
 	}
 	public void setDpt(Department dpt) {
 		this.dpt = dpt;
+	}
+	public void setNoDpt(int noDpt){
+		this.noDpt=noDpt;
+	}
+	public int getNoDpt(){
+		return noDpt;
 	}
 	
 	
